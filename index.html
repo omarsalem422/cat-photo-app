@@ -24,12 +24,37 @@
         <li>laser pointer</li>
         <li>lasagna</li>
       </ul>
-      <p>Three things cat hate</p>
+      <p>Three things cat hate:</p>
       <ol>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other charset</li>
       </ol>
+      <form action="/submit-cat-photo">
+        <label for="indoor">
+          <input id="indoor" type="radio" name="indoor-outdoor" /> Indoor
+        </label>
+        <label for="outdoor">
+          <input id="outdoor" type="radio" name="indoor-outdoor" /> Outdoor
+        </label>
+        <br />
+
+        <label for="loving">
+          <input type="checkbox" name="personality" id="" />
+          Loving
+        </label>
+        <label for="lazy">
+          <input type="checkbox" name="personality" id="lazy" />
+          Lazy
+        </label>
+        <label for="energetic">
+          <input type="checkbox" name="personality" id="energetic" />
+          Energetic</label
+        >
+        <br />
+        <input type="text" placeholder="cat photo URL" required />
+        <button type="submit">Submit</button>
+      </form>
     </main>
     <footer id="#footer">Copyright Cat Photo App</footer>
   </body>
